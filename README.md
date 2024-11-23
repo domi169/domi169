@@ -45,14 +45,14 @@ Entrega el código en un archivo Python (.py o Jupyter Notebook), los archivos C
 1. **Instalación de Selenium**:
    Ejecuta el siguiente comando para instalar Selenium:
    pip install selenium
-   (pantallazo)
+   (Screenshot): https://imgur.com/a/Xta6kTp
 
-- Instalación del driver de Chrome: (pantallazo)
+- Instalación del driver de Chrome: https://imgur.com/a/dh95di8 (Screenshot)
 
 ### MySQL
 **Instalación de MySQL**:
  Ejecuta el siguiente comando para instalar MySQL:
-   (pantallazo)
+(Screenshot): https://imgur.com/a/EJ9sNKy
 
 
 ## 2. Implementación del Web Scraping
@@ -67,7 +67,7 @@ Datos Extraídos, para cada instrumento se extrajeron:
 - Fecha (date)
 - Precio de cierre (close_price)
 - Volumen de transacciones (volume)
-
+Esto realizandolo de la siguiente manera: https://imgur.com/a/NJ1tiWT
 ## 3. Almacenamiento en MySQL
 Estructura de la Base de Datos
 Para cada instrumento financiero, se creó una tabla con la siguiente estructura:
@@ -82,3 +82,4 @@ Consultas realizadas:
 - Consulta 3: Calcula el promedio del precio de cierre para cada instrumento financiero.
 - Consulta 4: Crea una vista que muestre las fechas y el precio de cierre promedio entre todos los instrumentos en días comunes.
 - Consulta 5: Usa un JOIN para combinar datos de Tesla y el DOW, mostrando fechas donde ambos tuvieron un volumen mayor a 10 millones de transacciones.
+(Screenshot): https://imgur.com/a/lc5dljM
